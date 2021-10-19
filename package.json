@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/anushaselvan/README-Generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "inquirer": "^8.2.0",
+    "util": "^0.12.3"
+
   }
 }

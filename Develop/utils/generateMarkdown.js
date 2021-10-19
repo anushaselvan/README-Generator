@@ -12,12 +12,34 @@
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers){
-  return `My project title is # ${answers.title} # Unit 09: Node.js
+  return `
+  <h1>${answers.title} </h1>
 
-  ## ${answers.description}`
+  ## Description
+   ${answers.description}
+
+  ## Table of Contents
+   - [Installation](#Installation)
+   - [Usage](#Usage)
+   - [License](#License)
+   - [Contribution](#Contribution)
+   - [Tests](#Tests)
+   - [Questions](#questions)
+   
+   Installation
+    ${answers.installation}
+   Usage
+    ${answers.usage}
+   Contribution
+    ${answers.contribution}
+   Tests
+    ${answers.tests}
+   Questions
+    ${answers.questions}
 
 
 
+   `
   ;
 }
  

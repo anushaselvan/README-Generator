@@ -28,20 +28,12 @@ function questions() {
             name: 'usage',
             message: 'Usage:',
         },
+       
         {
-            type: 'input',
-            name: 'credits',
-            message: 'Credits:',
-        },
-        {
-            type: 'input',
+            type: 'list',
             name: 'license',
             message: 'License:',
-        },
-        {
-            type: 'input',
-            name: 'features',
-            message: 'Features:',
+            choices: ['MIT', 'Apache', 'GNU', 'Mozilla','BSD'],
         },
         {
             type: 'input',
@@ -52,6 +44,11 @@ function questions() {
             type: 'input',
             name: 'tests',
             message: 'Tests:',
+        },
+        {
+            type: 'input',
+            name: 'questions',
+            message: 'Questions:',
         },
     ]);
 };

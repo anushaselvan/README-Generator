@@ -56,8 +56,9 @@ function generateMarkdown(answers){
     ${answers.tests}
   ## Questions
     ${answers.questions}<br>
-    Find me on Github: [${answers.username}](https://github.com/${answers.username})<br>
-    Contact me via [email](${answers.email})<br>
+
+    Find me on [Github](https://github.com/${answers.username}) <br>
+    Contact me via [email](mailto:${answers.email})<br>
 
    `
   ;

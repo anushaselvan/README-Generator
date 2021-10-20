@@ -1,11 +1,11 @@
 
   <h1>readme </h1>
 
-  ![badge](https://img.shields.io/badge/license-Apache-yellowgreen)<br>
+  ![badge](https://img.shields.io/badge/license-Mozilla-yellowgreen)<br>
 
 
   ## Description
-   readme
+   readme generator
 
   ## Table of Contents
    - [Installation](#Installation)
@@ -16,18 +16,19 @@
    - [Questions](#questions)
    
   ## Installation
-    bnkmv
+    install
   ## License
 
   ## Usage
-    jnk
+    usage
   ## Contribution
-    bn
+    contribute
   ## Tests
-    vhbjnk
+    test
   ## Questions
-    vbn<br>
-    Find me on Github: [anushaselvan](https://github.com/anushaselvan)<br>
-    Contact me via [email](anushaselvan@gmail.com)<br>
+    <br>
+
+    Find me on [Github](https://github.com/anushaselvan) <br>
+    Contact me via [email](mailto:anushaselvan@gmail.com)<br>
 
    

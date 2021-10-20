@@ -33,7 +33,7 @@ function questions() {
             type: 'list',
             name: 'license',
             message: 'License:',
-            choices: ['MIT', 'Apache', 'GNU', 'Mozilla','BSD'],
+            choices: ['MIT', 'Apache', 'GNU', 'Mozilla','BSD', 'Unlicense'],
         },
         {
             type: 'input',

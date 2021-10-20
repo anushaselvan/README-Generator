@@ -14,6 +14,7 @@
 function generateMarkdown(answers){
   return `
   <h1>${answers.title} </h1>
+  ![badge](https://img.shields.io/badge/license-${answers.license}-yellowgreen)
 
   ## Description
    ${answers.description}
@@ -26,15 +27,15 @@ function generateMarkdown(answers){
    - [Tests](#Tests)
    - [Questions](#questions)
    
-   Installation
+  ## Installation
     ${answers.installation}
-   Usage
+  ## Usage
     ${answers.usage}
-   Contribution
+  ## Contribution
     ${answers.contribution}
-   Tests
+  ## Tests
     ${answers.tests}
-   Questions
+  ## Questions
     ${answers.questions}
 
 
@@ -42,7 +43,4 @@ function generateMarkdown(answers){
    `
   ;
 }
- 
-
-
 module.exports = generateMarkdown;

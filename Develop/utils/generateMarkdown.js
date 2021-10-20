@@ -14,7 +14,7 @@
 function generateMarkdown(answers){
   return `
   <h1>${answers.title} </h1>
-  ![badge](https://img.shields.io/badge/license-${answers.license}-yellowgreen)
+  ![badge](https://img.shields.io/badge/license-${answers.license}-yellowgreen.svg)
 
   ## Description
    ${answers.description}

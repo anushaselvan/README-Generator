@@ -39,8 +39,7 @@ function generateMarkdown(answers){
   <h1>${answers.title} </h1>
 
   [![badge](${renderLicenseBadge(answers.license)})](${renderLicenseLink(answers.license)})<br>
-
-
+  
   ## Description
    ${answers.description}
 
@@ -54,20 +53,24 @@ function generateMarkdown(answers){
    
   ## Installation
     ${answers.installation}
+
   ## License
      ${renderLicenseSection(answers.license)} 
+
   ## Usage
     ${answers.usage}
+
   ## Contribution
     ${answers.contribution}
+
   ## Tests
     ${answers.tests}
+
   ## Questions
     ${answers.questions} <br>
 
-    - [Github](https://github.com/${answers.username})  <br>
-    - [Email](mailto:${answers.email})
-
+    [Github](https://github.com/${answers.username}) <br>
+    [Email](mailto:${answers.email})
    `
   ;
 }

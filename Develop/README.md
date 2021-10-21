@@ -1,11 +1,11 @@
 
   <h1>readme </h1>
 
-  ![badge](https://img.shields.io/badge/license-Apache-yellowgreen)<br>
+  ![badge](https://img.shields.io/badge/license-Mozilla-yellowgreen)<br>
 
 
   ## Description
-   readme generator sample
+   readme generator sample run
 
   ## Table of Contents
    - [Installation](#Installation)
@@ -18,7 +18,7 @@
   ## Installation
     install
   ## License
-
+     This application is covered under Mozilla license. 
   ## Usage
     usage
   ## Contribution
@@ -27,8 +27,9 @@
     test
   ## Questions
     questions <br>
+
     
-    [Github](https://github.com/anushaselvan) <br>
-    [Email](mailto:anushaselvan@gmail.com)<br>
+    [Github](https://github.com/anushaselvan)  <br>
+    [Email](mailto:anushaselvan@gmail.com)
 
    

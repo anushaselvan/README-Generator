@@ -1,11 +1,11 @@
 
-  <h1>readme </h1>
+  <h1>README Generator </h1>
 
-  ![badge](https://img.shields.io/badge/license-Mozilla-yellowgreen)<br>
+  [![badge](https://img.shields.io/badge/license-MIT-yellowgreen)](https://opensource.org/licenses/MIT)<br>
 
 
   ## Description
-   readme generator sample run
+   This is a simple Command-line Interface application created using JavaScript. The intent of this application is to generate a README.md file using user input. 
 
   ## Table of Contents
    - [Installation](#Installation)
@@ -16,20 +16,19 @@
    - [Questions](#questions)
    
   ## Installation
-    install
+    Download/clone this repository & simply run 'node index.js' in your terminal. This application requires npm package 'inquirer'. Use command 'npm i inquirer' to install the package.
   ## License
-     This application is covered under Mozilla license. 
+     This application is covered under MIT license. 
   ## Usage
-    usage
+    After installing, follow the prompts until the end. A file named 'README.md' will be generated with your given responses.
   ## Contribution
-    contribute
+    Submit a Pull Request to collaborate!
   ## Tests
-    test
+    None
   ## Questions
-    questions <br>
+    Contact me for further details <br>
 
-    
-    [Github](https://github.com/anushaselvan)  <br>
-    [Email](mailto:anushaselvan@gmail.com)
+    - [Github](https://github.com/anushaselvan)  <br>
+    - [Email](mailto:anushaselvan@gmail.com)
 
    

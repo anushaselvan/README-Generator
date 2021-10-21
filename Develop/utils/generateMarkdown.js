@@ -2,10 +2,27 @@ function renderLicenseBadge(license) {
   if(license === "Unlicense"){
   return ``;
   }else{
-    return `![badge](https://img.shields.io/badge/license-${license}-yellowgreen)`;
+    return `https://img.shields.io/badge/license-${license}-yellowgreen`;
     
   }
 }
+function renderLicenseLink(license) {
+ switch(license){
+ case "MIT":
+   return `https://opensource.org/licenses/MIT`;
+   case "Apache":
+   return `https://opensource.org/licenses/Apache-2.0`;
+   case "GNU":
+   return `https://www.gnu.org/licenses/gpl-3.0`;
+   case "Mozilla":
+   return `https://opensource.org/licenses/MPL-2.0`;
+   case "BSD":
+   return `https://opensource.org/licenses/BSD-3-Clause`;
+   default:
+     return ``;
+ }
+}
+
 function renderLicenseSection(license) {
    if(license === "Unlicense"){
      return `This is an unlicensed application`;
@@ -16,27 +33,12 @@ function renderLicenseSection(license) {
  }  
 
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-/*function renderLicenseLink(license) {
-  switch(license)
-  case(MIT)
-  {
-    return `https://img.shields.io/badge/license-${license}-yellowgreen`;
-  
-    }else{
-      return " ";
-    }
-  }
-}*/
-
-
 
 function generateMarkdown(answers){
   return `
   <h1>${answers.title} </h1>
 
-  ${renderLicenseBadge(answers.license)}<br>
+  [![badge](${renderLicenseBadge(answers.license)})](${renderLicenseLink(answers.license)})<br>
 
 
   ## Description
@@ -63,9 +65,8 @@ function generateMarkdown(answers){
   ## Questions
     ${answers.questions} <br>
 
-    
-    [Github](https://github.com/${answers.username})  <br>
-    [Email](mailto:${answers.email})
+    - [Github](https://github.com/${answers.username})  <br>
+    - [Email](mailto:${answers.email})
 
    `
   ;

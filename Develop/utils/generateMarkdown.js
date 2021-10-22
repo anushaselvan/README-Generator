@@ -28,50 +28,47 @@ function renderLicenseSection(license) {
      return `This is an unlicensed application`;
     }
     else {
-      return `This application is covered under ${license} license.`;
+      return `This application is covered under ${license} license.vb`;
     } 
  }  
 
 
 
 function generateMarkdown(answers){
-  return `
-  <h1>${answers.title} </h1>
+return `<h1>${answers.title} </h1>
 
-  [![badge](${renderLicenseBadge(answers.license)})](${renderLicenseLink(answers.license)})<br>
+[![badge](${renderLicenseBadge(answers.license)})](${renderLicenseLink(answers.license)})<br>
+
+## Description
+  ${answers.description}
+
+## Table of Contents
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [Contribution](#Contribution)
+  - [Tests](#Tests) 
+  - [Questions](#Questions)
   
-  ## Description
-   ${answers.description}
+## Installation
+  ${answers.installation}
 
-  ## Table of Contents
-   - [Installation](#Installation)
-   - [Usage](#Usage)
-   - [License](#License)
-   - [Contribution](#Contribution)
-   - [Tests](#Tests)
-   - [Questions](#questions)
-   
-  ## Installation
-    ${answers.installation}
+## License
+  ${renderLicenseSection(answers.license)} 
 
-  ## License
-     ${renderLicenseSection(answers.license)} 
+## Usage
+  ${answers.usage}
 
-  ## Usage
-    ${answers.usage}
+## Contribution
+  ${answers.contribution}
 
-  ## Contribution
-    ${answers.contribution}
+## Tests
+  ${answers.tests}
 
-  ## Tests
-    ${answers.tests}
+## Questions
+  ${answers.questions}
 
-  ## Questions
-    ${answers.questions} <br>
-
-    [Github](https://github.com/${answers.username}) <br>
-    [Email](mailto:${answers.email})
-   `
-  ;
+  [Github](https://github.com/${answers.username})<br>
+  [Email](mailto:${answers.email})  `;
 }
 module.exports = generateMarkdown;

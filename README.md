@@ -21,6 +21,7 @@
 
 ## Usage
   After installing, follow the prompts until the end. A file named 'README.md' will be generated with your given responses.
+  Check out this [video](https://watch.screencastify.com/v/G7heYbhOmWOCLA7yYsWa) for more details.
 
 ## Contribution
   Submit a Pull Request to collaborate!
@@ -33,3 +34,5 @@
 
   [Github](https://github.com/anushaselvan )<br>
   [Email](mailto:anushaselvan@gmail.com)  
+
+  -- This file is generated using the README generator --
